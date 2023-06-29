@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+body{
+  background-image: linear-gradient(to right bottom, #000000, #310f18, #5d0f22, #8a0725, #b70020, #b70020, #b70020, #b70020, #8a0725, #5d0f22, #310f18, #000000);
+}
+.navbar{
+    overflow: hidden;
+    height:90px;
+    background-image: linear-gradient(to right, #000000, #3f101c, #7b0b27, #b80026, #f21111);
+    display: flex;
+    column-gap: 50px;
+    border-bottom:2px solid #000000;
+}
+.logo{
+    height:90px;
+    width:100px;
+}
+.logo img{
+    height:90px;
+    width:100px;
+    border-radius: 50px;
+}
+.navlinks{
+    flex-basis: 1250px;
+}
+.navul{
+    font-size: 17px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-top: 35px;
+}
+.navul li{
+    display: inline;
+    border-right: 1px solid #bbb;
+}
+.navul li a{
+    
+    padding: 40px;
+    text-decoration: none;
+    color:white
+}
+.user{
+    align-self: center;
+    justify-items: center;
+}
+.user button{
+    width: 70px;
+    height: 60px;
+    background-color: #DC1621;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 7px;
+    border-radius: 15px;
+    box-shadow: #3f101c;
+}
+
+.container {
+
+    height: 150vh;
+    width: 100%;
+    margin-top: 10%;
+    /* align-items: center; */
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  .card {
+    border-radius: 10px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+    width: 600px;
+    height: 360px;
+    background-color: #ffffff;
+    padding: 10px 30px 40px;
+  }
+  
+  .card h3 {
+    font-size: 22px;
+    font-weight: 600;
+    
+  }
+  
+  .drop_box {
+    margin: 10px 0;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 3px solid #a3a3a3;
+    border-radius: 5px;
+  }
+  
+  .drop_box h4 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #2e2e2e;
+  }
+  
+  .drop_box p {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 12px;
+    color: #a3a3a3;
+  }
+  
+  .btn {
+    text-decoration: none;
+    background-color: #f3931d;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: solid 1px black;
+    border-radius: 15px;
+    outline: none;
+    transition: 0.3s;
+  }
+  
+  .btn:hover{
+    text-decoration: none;
+    background-color: #cd4646;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    outline: 1px solid #010101;
+  }

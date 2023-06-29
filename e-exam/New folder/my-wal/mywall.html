@@ -1,0 +1,94 @@
+<html>
+  <head>
+    <title>My-Wall</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet"><link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css'>
+    <link href="wall.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbari">
+        <div class="logoi">
+          <a href="/index"><img src="../logo-white.png" /></a>
+        </div>
+        <div class="navlinksi">
+          <ul class="navuli">
+            <li><a href="/exam">E-Exam</a></li>
+            <li><a href="/forum">Open Forum</a></li>
+            <li><a href="/repo">E-Repository</a></li>
+            <li><a href="#">My-Wall</a></li>
+          </ul>
+        </div>
+        <div class="hello">
+          <h5 id="name"></h5>
+        </div>
+        <div class="useri">
+          <form>
+            <button formaction="/login" id="log">Log Out</button>
+          </form>
+        </div>
+      </nav>
+    </header>
+
+    <section>
+      <div class="rt-container">
+        <div class="col-rt-12">
+          <div class="Scriptcontent">   
+            <div class="student-profile py-4">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-4">
+                    <div class="card shadow-sm">
+                      <div class="card-header bg-transparent text-center">
+                        <img
+                          class="profile_img"
+                          src="https://images.unsplash.com/photo-1511367461989-f85a21fda167?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZmlsZXxlbnwwfHwwfHw%3D&w=1000&q=80"
+                          alt="student dp"
+                        />
+                        <h3 id="hd">Aniket</h3>
+                      </div>
+                      <div id="second" class="card-body">
+                        
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-8">
+                    <div class="card shadow-sm">
+                      <div class="card-header bg-transparent border-0 top">
+                        <h3 class="mb-0">
+                          <i class="far fa-clone pr-1"></i>General Information
+                        </h3>
+                        <form action="/edit">
+                          <button id="edit" class="edit">&#9998; EDIT</button>
+                        </form>
+                        
+                      </div>
+                      <div class="card-body pt-0">
+                        <table class="table table-bordered" id="info">
+                          
+                        </table>
+                      </div>
+                    </div>
+                    <div style="height: 26px"></div>
+                    <div class="card shadow-sm">
+                      <div class="card-header bg-transparent border-0">
+                        <h3 class="mb-0">
+                          <i class="far fa-clone pr-1"></i>Quiz Scores:
+                        </h3>
+                      </div>
+                      <div class="card-body pt-0" id="quiz">
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- partial -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="mywall.js"></script>
+  </body>
+</html>

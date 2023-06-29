@@ -1,0 +1,106 @@
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script);
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.navbari {
+  overflow: hidden;
+  height: 90px;
+  background-image: linear-gradient(
+    to right,
+    #000000,
+    #3f101c,
+    #7b0b27,
+    #b80026,
+    #f21111
+  );
+  display: flex;
+  column-gap: 50px;
+  border-bottom: 2px solid #000000;
+}
+.logoi {
+  height: 90px;
+  width: 100px;
+}
+.logoi img {
+  height: 90px;
+  width: 100px;
+  border-radius: 50px;
+}
+.navlinksi {
+  flex-basis: 1250px;
+}
+.navuli {
+  font-size: 17px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  margin-top: 35px;
+}
+.navuli li {
+  display: inline;
+  border-right: 1px solid #bbb;
+}
+.navuli li a {
+  padding: 40px;
+  text-decoration: none;
+  color: white;
+}
+
+.useri {
+  align-self: center;
+  justify-items: center;
+}
+.useri button {
+  width: 70px;
+  height: 60px;
+  background-color: #dc1621;
+  color: white;
+  font-weight: bold;
+  font-size: 17px;
+  padding: 7px;
+  border-radius: 15px;
+  box-shadow: #3f101c;
+}
+
+body {
+  background: #fffbd5;
+  background: -webkit-linear-gradient(to right, #b20a2c, #fffbd5);
+  background: linear-gradient(to right, #b20a2c, #fffbd5);
+
+  padding: 0;
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  color: #000;
+}
+
+.student-profile .card {
+  border-radius: 10px;
+}
+
+.student-profile .card .card-header .profile_img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin: 10px auto;
+  border: 10px solid #ccc;
+  border-radius: 50%;
+}
+
+.student-profile .card h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.student-profile .card p {
+  font-size: 16px;
+  color: #000;
+}
+
+.student-profile .table th,
+.student-profile .table td {
+  font-size: 14px;
+  padding: 5px 10px;
+  color: #000;
+}

@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to right top, #820218, #990823, #b01030, #c8173d, #e01e4c);
+    background-repeat: no-repeat;
+    height: 867px;
+    /* width: 1695px */
+}
+.navbari{
+    overflow: hidden;
+    height:90px;
+    background-image: linear-gradient(to right, #000000, #3f101c, #7b0b27, #b80026, #f21111);
+    display: flex;
+    column-gap: 50px;
+    border-bottom:2px solid #000000;
+}
+.logoi{
+    height:90px;
+    width:100px;
+}
+.logoi img{
+    height:90px;
+    width:100px;
+    border-radius: 50px;
+}
+.navlinksi{
+    flex-basis: 1250px;
+}
+.navuli{
+    font-size: 17px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-top: 35px;
+}
+.navuli li{
+    display: inline;
+    border-right: 1px solid #bbb;
+}
+.navuli li a{
+    
+    padding: 40px;
+    text-decoration: none;
+    color:white
+}
+.user{
+    align-self: center;
+    justify-items: center;
+}
+.user button{
+    width: 70px;
+    height: 60px;
+    background-color: #DC1621;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 7px;
+    border-radius: 15px;
+    box-shadow: #3f101c;
+}
+.qdisplay{
+    margin-top: 3%;
+}
+
+
+.sub{
+    height: 40px;
+   width: 100px;
+   border-radius: 25px;
+   border: none;
+   color: #fff;
+   font-size: 18px;
+   font-weight: 500;
+   letter-spacing: 1px;
+   cursor: pointer;
+   transition: all 0.3s ease;
+   background: rgb(198, 73, 73)
+}
+.dsub
+{
+    height: 40px;
+   width: 150px;
+   border-radius: 10px;
+   border: none;
+   color: #fff;
+   font-size: 18px;
+   font-weight: 500;
+   letter-spacing: 1px;
+   cursor: pointer;
+   transition: all 0.3s ease;
+   background: rgb(244, 89, 89)
+}
+.err{
+    visibility: hidden;
+}
+.err1{
+    color:rgb(30, 0, 255);
+
+}

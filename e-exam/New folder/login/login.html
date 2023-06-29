@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <div class="overlay">
+      <form method="post" action="/index">
+        <div class="con">
+          <header class="head-form">
+            <h2>Login</h2>
+          </header>
+          <br />
+          <div class="field-set">
+            <input
+              class="form-input"
+              id="txt-input"
+              type="email"
+              placeholder="@UserName"
+              name="email"
+            />
+            <p id="error1" class="err1">*Email must contain @ and .</p>
+            <br />
+            <br />
+            <input
+              class="form-input"
+              type="password"
+              placeholder="Password"
+              id="pwd"
+              name="password"
+            />
+            <p id="error2" class="err1">*Min length 6</p>
+            <br />
+            <br />
+            <button id="login" class="log-in">Log In</button>
+          </div>
+          <div class="other">
+            <form method="get">
+              <button class="btn submits sign-up"  formaction="/reg">
+                <i class="fa fa-user-plus" aria-hidden="true">Sign Up</i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </form>
+    </div>
+    <script src="login.js"></script>
+  </body>
+</html>

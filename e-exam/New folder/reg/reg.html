@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Registration</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="reg.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">Registration</div>
+      <div class="content">
+        <form name="myForm" method="post" action="/login">
+          <div class="user-details">
+            <div class="input-box">
+              <span class="details">Full Name</span>
+              <input
+                id="fname"
+                type="text"
+                name="name"
+                placeholder="Enter your name"
+              />
+              <p id="e1" class="err1">*Name must of min length 5</p>
+            </div>
+            <div class="input-box">
+              <span class="details">Student Id</span>
+              <input
+                id="sid"
+                name="sid"
+                type="text"
+                placeholder="Enter your id"
+              />
+              <p id="e2" class="err1">*Student id must not be empty</p>
+            </div>
+            <div class="input-box">
+              <span class="details">Email</span>
+              <input
+                id="e-mail"
+                type="text"
+                name="email"
+                placeholder="Enter your email"
+              />
+              <p id="e3" class="err1">*Email must contain @ and .</p>
+            </div>
+            <div class="input-box">
+              <span class="details">Phone Number</span>
+              <input
+                id="phone"
+                type="text"
+                name="phone_no"
+                placeholder="Enter your number"
+              />
+              <p id="e4" class="err1">*phone no must be 10 digit</p>
+            </div>
+            <div class="input-box">
+              <span class="details">Password</span>
+              <input
+                id="pss"
+                name="password"
+                type="password"
+                placeholder="Enter your password"
+              />
+              <p id="e5" class="err1">*Must be of length 6</p>
+            </div>
+            <div class="input-box">
+              <span class="details">Confirm Password</span>
+              <input
+                id="cfpss"
+                type="password"
+                name="cnf_password"
+                placeholder="Confirm your password"
+                r
+              />
+              <p id="e6" class="err1">*must match</p>
+            </div>
+            <div class="input-box">
+              <span class="details">Age</span>
+              <input
+                id="age"
+                name="age"
+                type="number"
+                placeholder="Enter your age"
+                r
+              />
+              <p id="e7" class="err1">*age should be greater than 18</p>
+            </div>
+            <div class="input-box">
+              <span class="details">Address</span>
+              <input
+                id="addr"
+                type="text"
+                name="address"
+                placeholder="Enter your address"
+                r
+              />
+              <p id="e8" class="err1">*Must not be empty</p>
+            </div>
+            <div class="input-box">
+              <span class="details">Branch</span>
+              <select id="branch" name="branch" class="select">
+                <option value=""></option>
+                <option value="cse">CSE</option>
+                <option value="cst">CST</option>
+                <option value="cen">CEN</option>
+                <option value="ECE">ECE</option>
+                <option value="ECE">EEE</option>
+                <option value="ECE">EIE</option>
+              </select>
+              <p id="e9" class="err1">*Must be selected</p>
+            </div>
+          </div>
+          <div class="input-box">
+            <span class="details">Technical Skills</span>
+            <input type="checkbox" id="html" name="html" value="HTML" />
+            <label for="html">HTML</label><br />
+            <input type="checkbox" id="css" name="css" value="css" />
+            <label for="css">CSS</label><br />
+            <input type="checkbox" id="c" name="c" value="c" />
+            <label for="c">C++</label><br />
+            <input type="checkbox" id="js" name="js" value="Js" />
+            <label for="js">JS</label>
+            <p id="e10" class="err1">*Must Select one</p>
+          </div>
+          <br />
+          <div class="gender-details">
+            <input type="radio" name="gender" id="dot-1" />
+            <input type="radio" name="gender" id="dot-2" />
+            <input type="radio" name="gender" id="dot-3" />
+            <span class="gender-title">Gender</span>
+            <div class="category">
+              <label for="dot-1">
+                <span class="dot one"></span>
+                <span class="gender">Male</span>
+              </label>
+              <label for="dot-2">
+                <span class="dot two"></span>
+                <span class="gender">Female</span>
+              </label>
+              <label for="dot-3">
+                <span class="dot three"></span>
+                <span class="gender">Prefer not to say</span>
+              </label>
+              <br />
+              <p id="e11" class="err1">*Must select one .</p>
+            </div>
+          </div>
+          <div class="button">
+            <button class="log-in" id="register">Register</button>
+          </div>
+          <div class="button">
+            <form method="post">
+              <button
+                class="log-in"
+                id="sign in"
+                formaction="/login"
+              >
+                Sign In
+              </button>
+            </form>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="reg.js"></script>
+  </body>
+</html>
